@@ -95,8 +95,33 @@ spring.jpa.properties.hibernate.format_sql: Formats the SQL statements in the co
 # Usage
 To use these properties, make sure to place them in your application.properties file in your Spring Boot project. Adjust the values as needed for your specific database configuration.
 
+# Overview
 
+This project is a Sunbase Customer Application implemented using Spring Boot. It provides a simple web-based interface for managing customer information. The application uses Spring Data JPA for data persistence, Thymeleaf for server-side templating, and Spring Boot for easy development and deployment.
 
+# Project Structure
+The project follows the standard Maven project structure and leverages the Spring Boot Starter Parent for managing dependencies and configuration.
+
+Group ID: sunbase.ty
+Artifact ID: SunbaseCustApp
+Version: 0.0.1-SNAPSHOT
+Java Version: 11
+
+# 
+
+The project includes the following main dependencies:
+
+Spring Boot Starter Data JPA: Provides support for data access using Java Persistence API (JPA).
+
+Spring Boot Starter Thymeleaf: Integrates Thymeleaf as the template engine for server-side rendering.
+
+Spring Boot Starter Web: Includes the necessary dependencies for building a web application.
+
+Spring Boot DevTools: Offers tools for fast application development with automatic restarts.
+
+MySQL Connector/J: Enables the application to connect to a MySQL database.
+
+Spring Boot Starter Test: Includes testing dependencies for unit and integration testing.
 
 
 Contributing
