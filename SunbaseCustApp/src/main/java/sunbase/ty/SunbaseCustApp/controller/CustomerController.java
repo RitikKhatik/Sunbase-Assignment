@@ -28,7 +28,7 @@ public class CustomerController {
 	
 	@GetMapping("/loginpg")
 	public String login(@RequestParam ("loginid") String loginid, @RequestParam ("loginpassword") String loginpassword) {
-		if(loginid.equalsIgnoreCase("test@sunbasedata.com") &&loginpassword.equalsIgnoreCase("Test@123")) {
+		if(loginid.equalsIgnoreCase("test@sunbasedata.com") && loginpassword.equals("Test@123")) {
 			return "redirect:available_customer";
 	}
 		return "login" ;
