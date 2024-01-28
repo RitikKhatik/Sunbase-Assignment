@@ -8,7 +8,9 @@ This web application provides a simple interface for managing customer details. 
 
 # Technologies Used
 Frontend: HTML, Bootstrap 5
+
 Backend: Spring Boot
+
 Database: MySQL
  
 Getting Started
@@ -60,9 +62,6 @@ Configuration
 Database Connection Properties
 The database connection properties are specified in the application.properties file. Ensure that you have the correct values for your MySQL database.
 
-
-Certainly! Below is a sample README file for your GitHub repository's database specification properties:
-
 Database Specification Properties for Spring Boot Sunbase Customer Application
 This repository contains the database specification properties for the Spring Boot Sunbase Customer Application. These properties are configured to connect the application to a MySQL database using Spring Data JPA.
 
@@ -93,7 +92,8 @@ Spring Boot Starter Test: Includes testing dependencies for unit and integration
 
 
 # Features
-
+ Login : You need to enter default ID and Password which is mentioned above if you enter right details then only you can login otherwise you will redirect to login page again.
+ 
 View All Customers: Navigate to All Customer to view a list of all customers.
 
 Find Customer by ID: Use the search bar to find a specific customer by entering their ID.
@@ -109,18 +109,22 @@ Delete Customer: Use the delete icon (
 View All Customers:
 
 Click on All Customer to see a list of all registered customers.
+
 Find Customer by ID:
 
-Enter the customer ID in the search bar to find a specific customer.
+Enter the customer ID in the search bar and press the enter from keyboard to find a specific customer.
+
 Add Customer:
 
 Click Add Customer to register a new customer.
 Fill in the customer details and submit the form.
+
 Edit Customer:
 
 Click the edit icon (
 ) next to a customer to edit their details.
 Update the customer information and save the changes.
+
 Delete Customer:
 
 Click the delete icon (
