@@ -62,21 +62,34 @@ The database connection properties are specified in the application.properties f
 
 properties
 Copy code
+
 # Database Connection Properties
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
 spring.datasource.url=jdbc:mysql://localhost:3306/SpringBoot_sunbasecustomerapp?createDatabaseIfNotExist=true
+
 spring.datasource.username=root
+
 spring.datasource.password=123456789
+
 spring.datasource.driver-class-name: Specifies the JDBC driver class for MySQL.
+
 spring.datasource.url: Specifies the JDBC URL for connecting to the MySQL database.
+
 spring.datasource.username: Specifies the MySQL database username.
+
 spring.datasource.password: Specifies the MySQL database password.
-JPA Properties
+
+# JPA Properties
+
 The JPA (Java Persistence API) properties are also configured in the application.properties file. These properties define how Spring Data JPA interacts with the underlying database.
 
 spring.jpa.show-sql: Enables the display of SQL statements in the console.
+
 spring.jpa.hibernate.ddl-auto: Specifies the action to be taken automatically by Hibernate when the application starts. In this case, it is set to update to automatically update the database schema based on the entity classes.
+
 spring.jpa.properties.hibernate.dialect: Specifies the Hibernate dialect for MySQL 8.
+
 spring.jpa.properties.hibernate.format_sql: Formats the SQL statements in the console for better readability.
 
 # Usage
