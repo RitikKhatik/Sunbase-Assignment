@@ -124,6 +124,54 @@ MySQL Connector/J: Enables the application to connect to a MySQL database.
 Spring Boot Starter Test: Includes testing dependencies for unit and integration testing.
 
 
+
+# Overview
+
+This web application provides a simple interface for managing customer details. Users can view a list of customers, add new customers, and perform actions such as editing and deleting customer records.
+
+# Features
+
+View All Customers: Navigate to All Customer to view a list of all customers.
+
+Find Customer by ID: Use the search bar to find a specific customer by entering their ID.
+
+Add Customer: Click Add Customer to register a new customer.
+
+Edit Customer: Use the edit icon (
+) to edit customer details.
+Delete Customer: Use the delete icon (
+) to delete a customer.
+
+How to Use
+View All Customers:
+
+Click on All Customer to see a list of all registered customers.
+Find Customer by ID:
+
+Enter the customer ID in the search bar to find a specific customer.
+Add Customer:
+
+Click Add Customer to register a new customer.
+Fill in the customer details and submit the form.
+Edit Customer:
+
+Click the edit icon (
+) next to a customer to edit their details.
+Update the customer information and save the changes.
+Delete Customer:
+
+Click the delete icon (
+) next to a customer to delete them.
+Technologies Used
+
+Frontend: HTML, Bootstrap 5
+
+Icons: Font Awesome 6.4.2
+
+Backend: Spring Boot
+
+Database: MySql
+
 Contributing
 Feel free to contribute to the project by opening issues or submitting pull requests. Your feedback and improvements are welcome!
 
